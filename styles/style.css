@@ -1,0 +1,66 @@
+.main-header {
+
+    text-align: center;
+
+}
+
+.new-year {
+    background-image: url(/B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: 75%%;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+
+}
+
+
+.header-title {
+    margin-top: 50px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.header-text {
+    font-size: 32px;
+    font-weight: 200px;
+}
+
+.header-content {
+    font-size: 72px;
+    font-weight: 600px;
+    line-height: 50px;
+}
+
+.body-text {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.body-part {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -40px;
+}
+
+.body-2ndtext {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.new-year-photo {
+    width: 600px;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 350px;
+
+}
