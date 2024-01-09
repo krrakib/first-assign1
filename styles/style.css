@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Merriweather:wght@900&family=Open+Sans:wght@800&display=swap');
+
+
 body,
 html {
     height: 100%;
@@ -21,11 +25,14 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    line-height: 5px;
+    font-family: Merriweather;
 }
 
 .first-image-text-pera {
     font-size: 32px;
     font-weight: 400;
+    font-family: Merriweather;
 }
 
 .first-image-text-heading {
@@ -39,6 +46,7 @@ html {
     text-align: center;
     font-size: 88px;
     font-weight: 700;
+    font-family: Inter;
 }
 
 .second-text {
@@ -50,6 +58,7 @@ html {
     text-align: center;
     font-size: 24px;
     font-weight: 500;
+    font-family: Inter;
 }
 
 .third-heading {
@@ -57,6 +66,7 @@ html {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+    font-family: Inter;
 }
 
 .second-image {
@@ -73,8 +83,8 @@ html {
     background-repeat: no-repeat;
     background-size: 75%;
     position: relative;
-    padding-left: 150px;
-    text-align: center;
+    padding-left: 200px;
+    text-align: left;
     margin-top: 100px;
 
 
@@ -88,6 +98,7 @@ html {
     letter-spacing: 4px;
     width: 642px;
     padding-top: 100px;
+    font-family: Merriweather;
 }
 
 .third-section-pera {
@@ -96,20 +107,21 @@ html {
     font-weight: 200;
     line-height: 15px;
     width: 697px;
+    font-family: Inter;
 }
 
 .third-section-button {
     color: #FFF;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     font-weight: 700;
+    font-family: Inter;
 }
 
 .third-section-image {
     display: flex;
     width: 220px;
     height: 360px;
-    padding: 0.008px 0px 0px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -135,6 +147,7 @@ html {
     line-height: 4px;
     text-transform: capitalize;
     padding-top: 100px;
+    font-family: Inter;
 }
 
 .fourth-section-button {
@@ -169,12 +182,14 @@ span {
     font-size: 18px;
     font-weight: 400;
     padding-top: 100px;
+    font-family: Inter;
 }
 
 .fifth-second-heading {
     color: #070211;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
+    font-family: Merriweather;
 }
 
 .fifth-pera {
@@ -182,6 +197,7 @@ span {
     font-size: 14px;
     font-weight: 200;
     line-height: 18px;
+    font-family: Inter;
 }
 
 .fifth-section-image {
@@ -194,6 +210,7 @@ span {
 
 .fifth-section-third {
     line-height: 5px;
+    font-family: Inter;
 }
 
 .fifth-third-section {
@@ -224,12 +241,14 @@ span {
     color: #F00;
     font-size: 18px;
     font-weight: 300;
+    font-family: Inter;
 }
 
 .section-six-two {
     color: #070211;
     font-size: 36px;
     font-weight: 600;
+    font-family: Merriweather;
 }
 
 .section-six-three {
@@ -237,6 +256,7 @@ span {
     font-size: 18px;
     font-weight: 200;
     line-height: 24px;
+    font-family: Inter;
 }
 
 .portfolio {
@@ -272,6 +292,7 @@ span {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
+    font-family: Merriweather;
 }
 
 .seventh-section-pera {
@@ -280,6 +301,7 @@ span {
     font-size: 12px;
     font-weight: 400;
     line-height: 12px;
+    font-family: Inter;
 }
 
 .subscribe-button {
@@ -287,6 +309,7 @@ span {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    font-family: Inter;
 }
 
 .input-field {
@@ -309,6 +332,7 @@ span {
     height: 500px;
     margin-top: 100px;
     padding-top: 100px;
+    font-family: Inter;
 }
 
 .footer-first-section {
@@ -343,7 +367,8 @@ span {
 .footer-second-section{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer-third-section{
@@ -367,3 +392,7 @@ span {
     line-height: 20px;
     padding-right: 50px;
 }
+
+hr.solid {
+    border-top: 0px solid #bbb;
+  }
