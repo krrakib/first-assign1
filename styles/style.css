@@ -147,6 +147,69 @@ html {
     background-color: #F00;
     cursor: pointer;
 }
-span{
+
+span {
     color: #F00;
+}
+
+.fifth-section {
+    display: flex;
+    padding: 180px 180px;
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.fifth-section-first{
+    line-height: 5px;
+}
+
+.fift-first-heading {
+    color: #F00;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 100px;
+}
+
+.fifth-second-heading {
+    color: #070211;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.fifth-pera {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+}
+
+.fifth-section-image {
+    width: 400px;
+    height: 365px;
+    border-radius: 200px;
+    border: 10px solid #F00;
+}
+
+.fifth-section-third{
+    line-height: 5px;
+}
+
+.fifth-third-section {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.fifth-third-section-pera {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+}
+
+.fifth-third-section-image {
+    width: 80px;
+    height: 80px;
 }
