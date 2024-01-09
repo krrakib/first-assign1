@@ -159,7 +159,7 @@ span {
     justify-content: space-between;
 }
 
-.fifth-section-first{
+.fifth-section-first {
     line-height: 5px;
 }
 
@@ -189,9 +189,10 @@ span {
     height: 365px;
     border-radius: 200px;
     border: 10px solid #F00;
+    padding: 10px;
 }
 
-.fifth-section-third{
+.fifth-section-third {
     line-height: 5px;
 }
 
@@ -212,4 +213,38 @@ span {
 .fifth-third-section-image {
     width: 80px;
     height: 80px;
+}
+
+.section-six {
+    margin-left: 180px;
+    line-height: 5px;
+}
+
+.section-six-one {
+    color: #F00;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.section-six-two {
+    color: #070211;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.section-six-three {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.portfolio{
+    margin-left: 180px;
+}
+
+.portfolio img {
+    width: 324px;
+    height: 350px;
+
 }
