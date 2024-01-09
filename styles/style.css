@@ -239,7 +239,7 @@ span {
     line-height: 24px;
 }
 
-.portfolio{
+.portfolio {
     margin-left: 180px;
 }
 
@@ -247,4 +247,123 @@ span {
     width: 324px;
     height: 350px;
 
+}
+
+.seventh-section {
+    background-color: rgba(255, 0, 0, 0.05);
+    background-position: center;
+    background-size: 75%;
+    margin-left: 180px;
+    margin-right: 128px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 70px;
+    height: 300px;
+}
+
+.seenth-section-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.seventh-section-heading {
+    color: #070211;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.seventh-section-pera {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.subscribe-button {
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.input-field {
+    width: 250px;
+    height: 30px;
+    background: #FFF;
+}
+
+.main-button {
+    width: 80px;
+    height: 36px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    cursor: pointer;
+}
+
+.footer-section {
+    background-color: #070211;
+    width: 1300px;
+    height: 500px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.footer-first-section {
+    display: flex;
+    justify-content: space-between;
+    line-height: 5px;
+}
+
+.footer-firts-pera {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 100px;
+}
+
+.footer-second-pera {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: 200px;
+}
+
+.footer-third-pera {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-second-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.footer-third-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footer-fourth-pera{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 100px;
+}
+
+.footer-fifth-pera{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: 50px;
 }
